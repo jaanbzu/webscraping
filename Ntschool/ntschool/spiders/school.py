@@ -54,19 +54,5 @@ class SchoolSpider(scrapy.Spider):
             'email': email,
             'web': web
         }
-        # for school_data in result['name']:
-        #     print(school_data)
-        # detail = {}
-        
-        # detail["name"] = result["name"]
-        # detail["address"] = result["physicalAddress"]["displayAddress"]
-        # detail["pastal_address"] = result["postalAddress"]["displayAddress"]
-        # info = result["schoolManagement"]
-        # for i in info:
-
-        #     detail[i['email']] = i['email']
-        #     detail[i['phone']] = i['phone']
-
-        # return detail
-
+       
         
